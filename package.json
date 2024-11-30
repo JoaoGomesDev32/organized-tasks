@@ -2,18 +2,25 @@
   "name": "organized-tasks",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "serve": "vite preview",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vite": "^4.5.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.5.13",
+    "vuetify": "^3.3.5",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.1",
-    "vite-plugin-vue-devtools": "^7.6.5"
-  }
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "type": "module"
 }
